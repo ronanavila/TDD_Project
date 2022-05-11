@@ -2,6 +2,7 @@
 using Alura.Estacionamento.Modelos;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace Alura.Estacionamento
 {
@@ -30,6 +31,7 @@ namespace Alura.Estacionamento
         // Métodos de negócios.
         static void MostrarVeiculosEstacionados()
         {
+            Debug.WriteLine("aaa");
             Console.Clear();
             Console.WriteLine(" Veículos Estacionados");
             foreach (Veiculo v in estacionamento.Veiculos)
