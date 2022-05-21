@@ -1,10 +1,9 @@
-﻿using Alura.Estacionamento.Alura.Estacionamento.Modelos;
-using Alura.Estacionamento.Modelos;
+﻿using Estacionamento.Modelos;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Alura.Estacionamento
+namespace Estacionamento
 {
     class Program
     {
@@ -30,8 +29,7 @@ namespace Alura.Estacionamento
         
         // Métodos de negócios.
         static void MostrarVeiculosEstacionados()
-        {
-            Debug.WriteLine("aaa");
+        {          
             Console.Clear();
             Console.WriteLine(" Veículos Estacionados");
             foreach (Veiculo v in estacionamento.Veiculos)
@@ -43,7 +41,7 @@ namespace Alura.Estacionamento
                 Console.WriteLine("********************************************");
                 //Console.WriteLine("************Ficha Detalhada Veículo*********");
                 //Console.WriteLine(v.ToString());
-                //Console.WriteLine("********Ticket Estacionamento Alura*********");
+                //Console.WriteLine("********Ticket Estacionamento *********");
                 //Console.WriteLine(v.Ticket);
                 //Console.WriteLine("********************************************");
         }

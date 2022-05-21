@@ -1,2 +1,2 @@
 # TDD_Project
-Projeto .Net Utilizando TDD
+Projeto .Net 6.0 Utilizando TDD
